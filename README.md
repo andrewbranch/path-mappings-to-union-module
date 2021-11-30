@@ -1,0 +1,3 @@
+- `src/components` contains platform-specific copies of components with different signatures (`Box.ios.ts`, `Box.android.ts`, `Box.win.ts`)
+- `generated` contains union-ified ambient declarations of those components (`Box.d.ts`)
+- A path mapping maps `xplat/*` into that generated folder
